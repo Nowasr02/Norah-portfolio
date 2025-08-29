@@ -13,7 +13,7 @@
 <body>
   <header>
     <nav class="navbar">
-      <ul class="nav-links">
+      <ul class="nav-links" id="navLinks">
         <li><a href="#home">HOME</a></li>
         <!-- <li><a href="#about">ABOUT</a></li> -->
         <li><a href="#skills">SKILLS</a></li>
@@ -27,13 +27,6 @@
     <span></span>
   </div>
 </nav>
-
-<script>
-  function toggleMenu() {
-    const navLinks = document.querySelector('.nav-links');
-    navLinks.classList.toggle('active');
-  }
-</script>
 
      <!--<div class="nav-actions">
     <a href="mailto:your-email@example.com" class="email-btn" title="Email Me">
@@ -189,14 +182,11 @@
   </div>
 </section>
 
-
 <script>
-  const hamburger = document.querySelector(".hamburger");
-  const navLinks = document.querySelector(".nav-links");
-
-  hamburger.addEventListener("click", () => {
-    navLinks.classList.toggle("active");
-  });
+  function toggleMenu() {
+    const navLinks = document.getElementById('navLinks');
+    navLinks.classList.toggle('active');
+  }
 </script>
 
 <!--For Skills Navbar-->
@@ -219,3 +209,4 @@
 
 </body>
 </html>
+
