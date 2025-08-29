@@ -201,6 +201,12 @@ body {
   50% { transform: translateY(-10px); }
 }
 
+@media (max-width:800px) {
+  .hero-right{
+    display: none;
+  }
+}
+
 .skills-section {
   height: 100vh;
   display: flex;
@@ -508,4 +514,5 @@ body {
 
 .contact-input:focus{
   border: 2px solid #d8ccc3;
+
 }
