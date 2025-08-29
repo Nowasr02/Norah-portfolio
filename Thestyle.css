@@ -201,7 +201,7 @@ body {
   50% { transform: translateY(-10px); }
 }
 
-@media (max-width:800px) {
+@media (max-width:500px) {
   .hero-right{
     display: none;
   }
@@ -516,3 +516,4 @@ body {
   border: 2px solid #d8ccc3;
 
 }
+
