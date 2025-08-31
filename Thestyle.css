@@ -12,7 +12,7 @@ html {
 body {
   font-family: "groudy old style", serif;
   background-color: #1c1819;
-  color: #000;
+  color: #ede4df;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -570,6 +570,7 @@ body {
   border: 2px solid #d8ccc3;
 
 }
+
 
 
 
