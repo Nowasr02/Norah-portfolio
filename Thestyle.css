@@ -11,8 +11,8 @@ html {
 
 body {
   font-family: "groudy old style", serif;
-  background-color: #fff;
-  color: #ede4df;
+  background-color: #1c1819;
+  color: #000;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -75,7 +75,7 @@ body {
   flex-direction: column;
   cursor: pointer;
   position: fixed;
-  right: 20px;
+  right: 25px;
   left: auto;
   top: 0;
   
@@ -570,6 +570,7 @@ body {
   border: 2px solid #d8ccc3;
 
 }
+
 
 
 
