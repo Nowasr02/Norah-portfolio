@@ -104,6 +104,7 @@ body {
 
   .hamburger {
     display: flex;
+    right: 0;
   }
 }
 
@@ -565,6 +566,7 @@ body {
   border: 2px solid #d8ccc3;
 
 }
+
 
 
 
