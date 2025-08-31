@@ -11,7 +11,7 @@ html {
 
 body {
   font-family: "groudy old style", serif;
-  background-color: #red;
+  background-color: #ff0000;
   color: #ede4df;
   display: flex;
   flex-direction: column;
@@ -566,6 +566,7 @@ body {
   border: 2px solid #d8ccc3;
 
 }
+
 
 
 
