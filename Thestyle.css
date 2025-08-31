@@ -11,7 +11,7 @@ html {
 
 body {
   font-family: "groudy old style", serif;
-  background-color: #1c1819;
+  background-color: #ffc0cb;
   color: #ede4df;
   display: flex;
   flex-direction: column;
@@ -74,7 +74,10 @@ body {
   display: none;
   flex-direction: column;
   cursor: pointer;
-  margin-right: auto;
+  position: fixed;
+  right: 0;
+  left: auto;
+  top: 0;
 }
 
 .hamburger span {
@@ -566,6 +569,7 @@ body {
   border: 2px solid #d8ccc3;
 
 }
+
 
 
 
