@@ -50,7 +50,7 @@
     <div class="buttons">
       <a href="https://github.com/Nowasr02" class="icon-btn" title="GitHub"><i class="fab fa-github"></i></a>
       <a href="https://www.linkedin.com/in/norah-waleed-/" class="icon-btn" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-      <a href="assets/Norah Arrubayea CV.pdf" target="_blank" class="icon-btn" title="My CV"><i class="fas fa-file-alt"></i></a>
+      <!-- <a href="assets/Norah Arrubayea CV.pdf" target="_blank" class="icon-btn" title="My CV"><i class="fas fa-file-alt"></i></a> -->
     </div>
   </div>
 
@@ -197,11 +197,10 @@
 
   tabBtns.forEach(btn => {
     btn.addEventListener("click", () => {
-      // إزالة active من الكل
+
       tabBtns.forEach(b => b.classList.remove("active"));
       tabContents.forEach(c => c.classList.remove("active"));
 
-      // إضافة active للزر والمحتوى
       btn.classList.add("active");
       document.getElementById(btn.dataset.tab).classList.add("active");
     });
@@ -210,5 +209,3 @@
 
 </body>
 </html>
-
-
